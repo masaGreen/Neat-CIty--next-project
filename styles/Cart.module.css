@@ -1,0 +1,113 @@
+.main{
+    background-image:-webkit-radial-gradient( rgb(227, 235, 225), rgb(208, 211, 211));
+    height: 100vh;
+    padding: 2rem;
+}
+.tableWrapper{
+    display: flex;
+    width: 100%;
+    padding-inline: 2rem;
+  
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    
+    flex:3;
+}
+.table{
+   
+    background-color: rgb(210, 216, 218);
+    border-collapse: collapse;
+}
+
+.tr th{
+    font-size: 1.2rem;
+    border: 1px solid grey;
+}
+.tr td{
+    padding: 0.6rem;
+    text-align: center;
+    border: 1px solid grey;
+ }
+ .total{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 4rem;
+    padding: 1rem;
+ }
+.checkOut{
+    padding: 1rem;
+   flex:1;
+}
+.totaldetails
+{color:white; 
+    background:black; 
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+}
+.checkoutItem{
+    padding:0.51rem;
+
+   
+}
+.methods{
+   display: flex;
+   flex-direction: column;
+
+}
+.mpesa{
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 0.51rem;
+    color:whitesmoke;
+    text-align: center;
+    background-color: rgba(7, 129, 18, 0.788);
+}
+.mpesa:hover{
+    background-color: aqua;
+    color: black;
+}
+.cash:hover{
+    background-color: aqua;
+}
+.cash{
+    cursor: pointer;
+    padding: 0.51rem;
+    border: none;
+    outline: none;
+    text-align: center;
+    background-color: rgb(187, 187, 221);
+    color: black;
+}
+
+@media screen  and (max-width:768px) {
+    .tableWrapper{
+        flex-direction: column ;
+    }
+    .totaldetails{
+        flex-direction: column;
+    }
+    .total{
+        gap:20px;
+        padding: 5px;
+    }
+    .tr th{
+        font-size: 0.8rem;
+        border: 1px solid grey;
+    }
+    .tr td{
+        padding: 0.2rem;
+        text-align: center;
+        border: 1px solid grey;
+     }
+     .tableWrapper{
+        display: flex;
+        width: 100%;
+        padding-inline: 0.5rem;
+        justify-content: center;
+    }
+}

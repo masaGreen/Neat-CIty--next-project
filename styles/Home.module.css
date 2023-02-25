@@ -1,0 +1,20 @@
+.navWrapper{
+    position: sticky;
+    top: 0;
+    height: 3rem;
+    background-color: rgb(2, 59, 47);
+    border-radius: 1px solid red;
+    padding: 1rem;
+}
+.orderWrapper{
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+.callIcon{
+    
+    
+}
+.texts{
+
+}
