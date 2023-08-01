@@ -4,7 +4,7 @@ import Slider from "../components/Slider";
 
 export default function Home() {
   return (
-    <>
+    <div className={styles.container}>
       <Head>
         <title> Neat City</title>
         <meta name="description" content="Online Clothes shop" />
@@ -14,6 +14,6 @@ export default function Home() {
       <main className={styles.main}>
         <Slider />
       </main>
-    </>
+    </div>
   );
 }
