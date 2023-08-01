@@ -20,7 +20,7 @@ export default function Navbar() {
       </div>
 
       <ul className={styles.links}>
-        <Link href="/" className={styles.nextlink}><li className={styles.link}>Products</li></Link>
+        <Link href="/" className={styles.nextlink}><li className={styles.displayed}>Products</li></Link>
         <li className={[styles.link, styles.shown].join(" ")}>Offers</li>
         <li className={styles.link}>New Arrivals</li>
         <li className={styles.link}>About</li>

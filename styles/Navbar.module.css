@@ -46,6 +46,16 @@
     list-style: none;
    
 }
+.displayed{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 10px;
+    flex-grow: 1;
+    border-radius: 3px;
+    height: 100%;
+}
 .link{
     display: flex;
     align-items: center;
